@@ -1,0 +1,13 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+create:
+    path:      /create
+    defaults:  { _controller: AppBundle:Default:create }
+show:
+    path:      /show
+    defaults:  { _controller: AppBundle:Default:show }
+files:
+    path:      /files
+    defaults:  { _controller: AppBundle:Default:files }
+
